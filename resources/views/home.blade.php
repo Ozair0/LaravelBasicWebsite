@@ -1,7 +1,10 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Ozair
- * Date: 4/6/2019
- * Time: 6:10 PM
- */
+@extends("layouts.app")
+
+@section("content")
+<h1>Home</h1>
+@endsection
+
+@section("sidebar")
+    @parent
+    <p>This is append to sidebar</p>
+@endsection
