@@ -24,4 +24,4 @@ Route::get('/contact', function () {
 });
 
 // Route for submit
-Route::post('contact/submit', MessagesController@submit);
+Route::post('contact/submit', 'MessagesController@submit');
